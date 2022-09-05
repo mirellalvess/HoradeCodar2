@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 4</title>
+    <script>
+       /*4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.*/ 
+
+       var numero = parseInt(prompt("Digite um número:"))
+       var numero2 = parseInt(prompt("Digite um número novamente:"))
+       var numero3 = parseInt(prompt("Digite um número mais uma vez:"))
+
+       if (numero > numero2 && numero > numero3) {
+       if (numero2 > numero3) {
+       alert("Os maiores valores somam para o valor: " + parseInt(numero + numero2));
+        }
+
+       else if (numero3 > numero2) {
+       alert("Os maiores valores somam para o valor: " + parseInt(numero + numero3));
+        } }
+
+       if (numero2 > numero && numero2 > numero3) {
+       if (numero3 > numero) {
+       alert("Os maiores valores somam para o valor: " + parseInt(numero3 + numero2));
+        }
+
+        else if (numero > numero3) {
+        alert("Os maiores valores somam para o valor: " + parseInt(numero2 + numero));
+        } }
+
+       if (numero3 > numero2 && numero3 > numero) {
+       if (numero2 > numero) {
+       alert("Os maiores valores somam para o valor: " + parseInt(numero3 + numero2));
+        }
+
+       else if (numero > numero2) {
+       alert("Os maiores valores somam para o valor: " + parseInt(numero3 + numero));
+        } }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

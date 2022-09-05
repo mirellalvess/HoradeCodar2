@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 7</title>
+    <script>
+        /*7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.  */
+
+        var numero = parseInt(prompt("insira seu primeiro número: "))
+        var numero2 = parseInt(prompt("insira seu segundo número: "))
+        var numero3 = parseInt(prompt("insira seu terceiro número: "))
+        var numero4 = parseInt(prompt("insira seu quarto número: "))
+        var numero5 = parseInt(prompt("insira seu quinto número: "))
+        var numero6 = parseInt(prompt("insira seu sexto número: "))
+        var acumuladora = 0
+
+        if (numero < 72) {
+        acumuladora += numero
+
+        }
+        if (numero2 < 72) {
+        acumuladora += numero2
+        }
+
+        if (numero3 < 72) {
+        acumuladora += numero3
+        }
+
+        if (numero4 < 72) {
+        acumuladora += numero4
+        }
+
+        if (numero5 < 72) {
+        acumuladora += numero5
+        }
+
+        if (numero6 < 72) {
+        acumuladora += numero6
+        }
+
+        alert("Os números são " + numero + ", " +  numero2 + ", " + numero3 + ", " + numero4 + ", " + numero5 + ", " + numero6 + " e soma dos números informados será de " + acumuladora)
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

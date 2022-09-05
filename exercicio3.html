@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 3</title>
+    <script>
+        /*3. Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.*/
+
+        var numero1 = parseInt(prompt("Digite um número:"))
+        var numero2 = parseInt(prompt("Digite um número novamente:"))
+        var numero3 = parseInt(prompt("Digite um número mais uma vez:"))
+
+        if (numero1 > numero2 && numero1 > numero3)
+        alert("O valor de " + numero1 + " é maior que " + numero2 + " e maior que " + numero3)
+
+        else if (numero2 > numero3 && numero2 > numero1) {
+        alert("O valor de " + numero2 + " é maior que " + numero3 + " e maior que " + numero1)
+        }
+
+        else if (numero3 > numero1 && numero3 > numero2) {
+        alert("O valor de " + numero3 + " é maior que " + numero1 + " e maior que " + numero2)
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

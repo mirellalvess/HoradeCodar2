@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 6</title>
+    <script>
+        /*6. Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)*/
+
+        var numero = parseInt(prompt("Digite o primeiro número:"))
+        var numero2 = parseInt(prompt("Digite o segundo número:"))
+        var numero3 = parseInt(prompt("Digite o terceiro número:"))
+        var numero4 = parseInt(prompt("Digite o quarto número:"))
+
+        if (numero > numero2 && numero > numero3 && numero > numero4) {
+        alert("O seu primeiro valor foi " + numero + " " + "e o seu último valor foi " + numero4 + " o maior valor digitado foi " + numero)
+        }
+
+        else if (numero2 > numero && numero2 > numero3 && numero2 > numero4) {
+        alert("O seu primeiro valor foi " + numero + " " + "e o seu último valor foi " + numero4 + " o maior valor digitado foi " + numero2)
+        }
+
+        else if (numero3 > numero && numero3 > numero2 && numero3 > numero4) {
+        alert("O seu primeiro valor foi " + numero + " " + "e o seu último valor foi " + numero4 + " o maior valor digitado foi " + numero3)
+        }
+
+        else if (numero4 > numero && numero4 > numero2 && numero4 > numero3) {
+        alert("O seu primeiro valor foi " + numero + " " + "e o seu último valor foi " + numero4 + " o maior valor digitado foi " + numero4)
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
